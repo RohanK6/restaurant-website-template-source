@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Events | Restaurant Website Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav">
+        <div class="brand">
+          <span class="brand__name" id="site-name">Restaurant Name</span>
+          <span class="brand__tagline" id="site-tagline">Tagline goes here</span>
+        </div>
+        <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div class="nav__links" id="nav-links"></div>
+        <div class="nav__actions">
+          <a class="button button--ghost" id="order-link" href="#">Order Online</a>
+          <a class="button" id="reserve-link" href="#">Reserve</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="events">
+        <div class="section__header">
+          <h2>Private Dining & Events</h2>
+          <p id="events-description">Events description goes here.</p>
+        </div>
+        <div class="events" id="events-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div>
+          <h3 id="footer-name">Restaurant Name</h3>
+          <p id="footer-tagline">Tagline goes here</p>
+        </div>
+        <div class="footer__links" id="footer-links"></div>
+      </div>
+      <p class="footer__note" id="footer-note">Footer note goes here.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
