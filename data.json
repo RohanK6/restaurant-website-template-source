@@ -1,0 +1,223 @@
+{
+  "restaurant": {
+    "name": "Beacon Harbor Bistro",
+    "tagline": "Coastal comfort in the heart of Boston",
+    "description": "Beacon Harbor Bistro brings modern New England cuisine to Back Bay with fresh seafood, farm-driven plates, and a warm, candlelit dining room."
+  },
+  "theme": {
+    "colors": {
+      "primary": "#1b4d40",
+      "secondary": "#f2b880",
+      "accent": "#d94f30",
+      "background": "#f9f4ef",
+      "surface": "#ffffff",
+      "text": "#1d1b1a",
+      "muted": "#6f6a63"
+    },
+    "fonts": {
+      "heading": "\"Playfair Display\", serif",
+      "body": "\"Source Sans 3\", sans-serif"
+    },
+    "radius": "20px",
+    "shadow": "0 20px 50px rgba(0, 0, 0, 0.12)"
+  },
+  "navigation": [
+    { "label": "About", "href": "#about" },
+    { "label": "Menu", "href": "#menu" },
+    { "label": "Specials", "href": "#specials" },
+    { "label": "Gallery", "href": "#gallery" },
+    { "label": "Events", "href": "#events" },
+    { "label": "Visit", "href": "#contact" }
+  ],
+  "actions": {
+    "orderOnline": {
+      "label": "Order Online",
+      "link": "https://www.toasttab.com"
+    },
+    "reserve": {
+      "label": "Reserve",
+      "link": "https://www.opentable.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Seasonal New England",
+    "title": "Elevated seafood + relaxed Boston charm",
+    "subtitle": "From butter-poached lobster to wood-fired seasonal plates, Beacon Harbor Bistro curates a dining experience inspired by the harbor and the creative energy of Back Bay.",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+    "primaryCta": {
+      "label": "Explore the Menu",
+      "link": "#menu"
+    },
+    "secondaryCta": {
+      "label": "Plan an Event",
+      "link": "#events"
+    },
+    "stats": [
+      { "label": "Chef-driven plates", "value": "34" },
+      { "label": "Local farms + fishers", "value": "18" },
+      { "label": "Private dining seats", "value": "60" }
+    ]
+  },
+  "about": {
+    "description": "Executive Chef Lina Park partners with regional farms, fishers, and cheesemakers to celebrate the flavors of New England. Our dining room blends coastal textures with modern Boston energy for an elevated yet approachable experience.",
+    "image": "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=900&q=80",
+    "highlights": ["Locally sourced", "Sommelier curated", "Coastal inspired", "Private dining"]
+  },
+  "menu": {
+    "description": "Seasonal highlights with seafood, house-made pastas, and wood-fired mains. Full menu available on request.",
+    "pdf": {
+      "label": "Download Full Menu",
+      "link": "https://example.com/beacon-harbor-bistro-menu.pdf"
+    },
+    "categories": [
+      {
+        "name": "Raw Bar",
+        "description": "Chilled coastal selections.",
+        "items": [
+          {
+            "name": "Beacon Harbor Oyster Trio",
+            "description": "Island Creek, Wellfleet, Kusshi with citrus mignonette",
+            "price": "$18"
+          },
+          {
+            "name": "Tuna Crudo",
+            "description": "Yuzu kosho, compressed melon, basil oil",
+            "price": "$16"
+          }
+        ]
+      },
+      {
+        "name": "Midnight Hearth",
+        "description": "Wood-fired starters.",
+        "items": [
+          {
+            "name": "Charred Octopus",
+            "description": "Smoked paprika, fennel, grilled lemon",
+            "price": "$22"
+          },
+          {
+            "name": "Spring Pea Tortelloni",
+            "description": "Ricotta, preserved lemon, brown butter",
+            "price": "$19"
+          }
+        ]
+      },
+      {
+        "name": "Harbor Plates",
+        "description": "Seasonal mains.",
+        "items": [
+          {
+            "name": "Butter-Poached Lobster",
+            "description": "Sweet corn risotto, tarragon, pickled shallot",
+            "price": "$38"
+          },
+          {
+            "name": "Cider-Glazed Salmon",
+            "description": "Roasted carrots, farro, cider jus",
+            "price": "$32"
+          }
+        ]
+      }
+    ]
+  },
+  "specials": {
+    "description": "Weekly rotating plates inspired by the Boston fish markets and seasonal farm harvests.",
+    "items": [
+      {
+        "title": "Friday Catch Share",
+        "description": "Whole roasted branzino, citrus gremolata, grilled asparagus",
+        "detail": "Serves two"
+      },
+      {
+        "title": "Sommelier Pairing",
+        "description": "Three-course seasonal tasting with paired coastal whites",
+        "detail": "Friday-Saturday"
+      },
+      {
+        "title": "Sunday Supper",
+        "description": "Slow-roasted lamb shoulder, charred broccolini",
+        "detail": "Limited seating"
+      }
+    ]
+  },
+  "gallery": {
+    "description": "A look inside the candlelit dining room and harbor-inspired plates.",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1421622548261-c45bfe178854?auto=format&fit=crop&w=800&q=80",
+        "alt": "Dining room table settings"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80",
+        "alt": "Chef plating seafood"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
+        "alt": "Cocktail on bar"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "alt": "Seasonal seafood dish"
+      }
+    ]
+  },
+  "testimonials": {
+    "description": "Recent notes from Beacon Harbor Bistro guests.",
+    "items": [
+      {
+        "quote": "Every plate felt thoughtful and fresh. The lobster risotto is a must.",
+        "name": "Jasmine L.",
+        "title": "Back Bay"
+      },
+      {
+        "quote": "Elegant atmosphere without the stuffiness. Perfect for date night.",
+        "name": "Marco D.",
+        "title": "South End"
+      },
+      {
+        "quote": "Private dining team handled our rehearsal dinner flawlessly.",
+        "name": "Avery & Cole",
+        "title": "Cambridge"
+      }
+    ]
+  },
+  "events": {
+    "description": "Host intimate dinners or lively celebrations with customizable menus.",
+    "items": [
+      {
+        "title": "The Harbor Room",
+        "description": "Semi-private space with harbor accents and AV support.",
+        "detail": "Seats 24"
+      },
+      {
+        "title": "Chef's Table",
+        "description": "Front-row dining experience with a custom tasting menu.",
+        "detail": "Seats 10"
+      },
+      {
+        "title": "Full Restaurant Buyout",
+        "description": "Celebrate with complete access to dining room + bar.",
+        "detail": "Seats 90"
+      }
+    ]
+  },
+  "contact": {
+    "description": "Join us in Back Bay for dinner, cocktails, and special events.",
+    "address": "196 Clarendon Street, Boston, MA 02116",
+    "phone": "(617) 555-0198",
+    "email": "hello@beaconharborbistro.com",
+    "mapLink": "https://maps.google.com",
+    "hours": [
+      { "day": "Mon-Thu", "hours": "4 PM - 10 PM" },
+      { "day": "Fri", "hours": "4 PM - 11 PM" },
+      { "day": "Sat", "hours": "3 PM - 11 PM" },
+      { "day": "Sun", "hours": "3 PM - 9 PM" }
+    ]
+  },
+  "footerLinks": [
+    { "label": "Instagram", "href": "https://instagram.com" },
+    { "label": "Facebook", "href": "https://facebook.com" },
+    { "label": "Press Kit", "href": "https://example.com" }
+  ],
+  "footerNote": "© 2024 Beacon Harbor Bistro. Built for a restaurant website template."
+}
