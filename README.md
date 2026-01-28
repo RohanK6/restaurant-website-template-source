@@ -19,6 +19,7 @@ python -m http.server 8000
 - **Typography**: Update `theme.fonts` in `data.json` or swap the Google Fonts in `index.html`.
 - **Content**: Menu categories, specials, events, and testimonials are all configured in `data.json`.
 - **Hero + Gallery images**: Replace with your own photo URLs.
+- **Menu PDF**: Provide a downloadable menu file via `menu.pdf` in `data.json`.
 
 ## Template Sections
 

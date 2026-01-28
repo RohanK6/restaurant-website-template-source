@@ -61,6 +61,7 @@ function renderContent(data) {
   renderPills("about-pills", data.about.highlights);
 
   setText("menu-description", data.menu.description);
+  setLink("menu-pdf", data.menu.pdf.link, data.menu.pdf.label);
   renderMenu("menu-grid", data.menu.categories);
 
   setText("specials-description", data.specials.description);

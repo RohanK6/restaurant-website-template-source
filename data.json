@@ -65,6 +65,10 @@
   },
   "menu": {
     "description": "Seasonal highlights with seafood, house-made pastas, and wood-fired mains. Full menu available on request.",
+    "pdf": {
+      "label": "Download Full Menu",
+      "link": "https://example.com/beacon-harbor-bistro-menu.pdf"
+    },
     "categories": [
       {
         "name": "Raw Bar",
