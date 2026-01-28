@@ -1,17 +1,17 @@
 {
   "restaurant": {
-    "name": "Beacon Harbor Bistro",
-    "tagline": "Coastal comfort in the heart of Boston",
-    "description": "Beacon Harbor Bistro brings modern New England cuisine to Back Bay with fresh seafood, farm-driven plates, and a warm, candlelit dining room."
+    "name": "Floramo's Restaurant - Revere Beach",
+    "tagline": "Often imitated, never duplicated.",
+    "description": "A modern take on a neighborhood classic at Revere Beach — known for bold, comforting plates and the motto: \"Where the Meat Falls OFF THE BONE!\""
   },
   "theme": {
     "colors": {
-      "primary": "#1b4d40",
-      "secondary": "#f2b880",
-      "accent": "#d94f30",
-      "background": "#f9f4ef",
+      "primary": "#151515",
+      "secondary": "#b08d57",
+      "accent": "#a61d24",
+      "background": "#fbf7f2",
       "surface": "#ffffff",
-      "text": "#1d1b1a",
+      "text": "#161413",
       "muted": "#6f6a63"
     },
     "fonts": {
@@ -27,197 +27,241 @@
     { "label": "Menu", "href": "menu.html" },
     { "label": "Gallery", "href": "gallery.html" },
     { "label": "Events", "href": "events.html" },
-    { "label": "Visit", "href": "visit.html" }
+    { "label": "Location & Hours", "href": "visit.html" }
   ],
   "actions": {
     "orderOnline": {
-      "label": "Order Online",
-      "link": "https://www.toasttab.com"
+      "label": "View Menu",
+      "link": "https://order.toasttab.com/online/floramos-revere"
     },
     "reserve": {
-      "label": "Reserve",
-      "link": "https://www.opentable.com"
+      "label": "Call",
+      "link": "tel:7816293229"
     }
   },
   "hero": {
-    "eyebrow": "Seasonal New England",
-    "title": "Elevated seafood + relaxed Boston charm",
-    "subtitle": "From butter-poached lobster to wood-fired seasonal plates, Beacon Harbor Bistro curates a dining experience inspired by the harbor and the creative energy of Back Bay.",
-    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
+    "eyebrow": "Revere Beach",
+    "title": "FLORAMO'S OPENING MON FEB 2 @ 11 AM! Where the Meat Falls OFF THE BONE!'",
+    "subtitle": "Seating first-come, first-served. Often imitated, never duplicated.",
+    "image": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/SteakTips2.png",
     "primaryCta": {
-      "label": "Explore the Menu",
-      "link": "menu.html"
+      "label": "View Menu",
+      "link": "https://order.toasttab.com/online/floramos-revere"
     },
     "secondaryCta": {
-      "label": "Plan an Event",
-      "link": "events.html"
+      "label": "Location & Hours",
+      "link": "visit.html"
     },
     "stats": [
-      { "label": "Chef-driven plates", "value": "34" },
-      { "label": "Local farms + fishers", "value": "18" },
-      { "label": "Private dining seats", "value": "60" }
+      { "label": "Phone", "value": "781-629-3229" },
+      { "label": "Seating", "value": "First-come" },
+      { "label": "Opening", "value": "Mon @ 11 AM" }
     ]
   },
   "about": {
-    "description": "Executive Chef Lina Park partners with regional farms, fishers, and cheesemakers to celebrate the flavors of New England. Our dining room blends coastal textures with modern Boston energy for an elevated yet approachable experience.",
-    "image": "https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=900&q=80",
-    "highlights": ["Locally sourced", "Sommelier curated", "Coastal inspired", "Private dining"]
+    "description": "Floramo's Restaurant was founded in 1984 by Tommy and Pat Floramo in Chelsea, Massachusetts. Offering home made recipes cooked to order.\n\nFloramo's has established itself as a destination where our patrons return again and again for consistent quality and delicious meals.\n\nKnown for our barbeque, seafood and Italian specialties, we serve a range of cuisine to meet everyone's taste. Tender and juicy, our ribs are prepared in a special way that has coined us the slogan 'where the meat falls off the bone'.\n\nCome in and try one of our homemade meals – we know you will love it!",
+    "image": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/Floramos_Wedding.png",
+    "highlights": [
+      "Founded in 1984",
+      "Barbeque, seafood & Italian specialties",
+      "Where the meat falls off the bone",
+      "Often imitated, never duplicated"
+    ]
   },
   "menu": {
-    "description": "Seasonal highlights with seafood, house-made pastas, and wood-fired mains. Full menu available on request.",
+    "description": "A few house favorites—see the full menu and pricing on Toast.",
     "pdf": {
-      "label": "Download Full Menu",
-      "link": "https://example.com/beacon-harbor-bistro-menu.pdf"
+      "label": "View Menu on Toast",
+      "link": "https://order.toasttab.com/online/floramos-revere"
     },
     "categories": [
       {
-        "name": "Raw Bar",
-        "description": "Chilled coastal selections.",
+        "name": "Fan Favorites",
+        "description": "Big flavor, classic Floramo’s comfort.",
         "items": [
           {
-            "name": "Beacon Harbor Oyster Trio",
-            "description": "Island Creek, Wellfleet, Kusshi with citrus mignonette",
-            "price": "$18"
+            "name": "Steak Tips",
+            "description": "Floramo’s signature marinated steak tips.",
+            "price": "$29.50"
           },
           {
-            "name": "Tuna Crudo",
-            "description": "Yuzu kosho, compressed melon, basil oil",
-            "price": "$16"
+            "name": "Baby Back Ribs (Full Rack)",
+            "description": "Where the meat falls off the bone.",
+            "price": "$29.95"
+          },
+          {
+            "name": "Mixed Grill",
+            "description": "Sausage, steak tip, turkey tip, chicken tip + 1/2 rack of ribs.",
+            "price": "$29.95"
           }
         ]
       },
       {
-        "name": "Midnight Hearth",
-        "description": "Wood-fired starters.",
+        "name": "Appetizers",
+        "description": "Start strong.",
         "items": [
           {
-            "name": "Charred Octopus",
-            "description": "Smoked paprika, fennel, grilled lemon",
-            "price": "$22"
+            "name": "Sautéed Artichoke Hearts",
+            "description": "Topped with mozzarella cheese and mushrooms.",
+            "price": "$12.25"
           },
           {
-            "name": "Spring Pea Tortelloni",
-            "description": "Ricotta, preserved lemon, brown butter",
-            "price": "$19"
+            "name": "Stuffed Mushrooms",
+            "description": "Stuffed with seafood stuffing.",
+            "price": "$10.25"
+          },
+          {
+            "name": "Bruschetta",
+            "description": "Garlic bread topped with tomato and mozzarella cheese.",
+            "price": "$6.95"
           }
         ]
       },
       {
-        "name": "Harbor Plates",
-        "description": "Seasonal mains.",
+        "name": "Seafood",
+        "description": "Local favorites and comfort classics.",
         "items": [
           {
-            "name": "Butter-Poached Lobster",
-            "description": "Sweet corn risotto, tarragon, pickled shallot",
-            "price": "$38"
+            "name": "Baked Stuffed Haddock",
+            "description": "Seafood stuffing + choice of potato, rice or pasta.",
+            "price": "$25.95"
           },
           {
-            "name": "Cider-Glazed Salmon",
-            "description": "Roasted carrots, farro, cider jus",
-            "price": "$32"
+            "name": "Baked Stuffed Shrimp",
+            "description": "Seafood stuffing + choice of potato, rice or pasta.",
+            "price": "$25.95"
+          },
+          {
+            "name": "Shrimp Scampi",
+            "description": "Shrimp sautéed with broccoli & mushrooms in white wine sauce over pasta.",
+            "price": "$25.95"
           }
         ]
       }
     ]
   },
   "specials": {
-    "description": "Weekly rotating plates inspired by the Boston fish markets and seasonal farm harvests.",
+    "description": "Updates, specials, and announcements.",
     "items": [
       {
-        "title": "Friday Catch Share",
-        "description": "Whole roasted branzino, citrus gremolata, grilled asparagus",
-        "detail": "Serves two"
+        "title": "Opening Monday, Feb 2 @ 11 AM",
+        "description": "Seating first-come, first-served.",
+        "detail": "Call for details: 781-629-3229"
       },
       {
-        "title": "Sommelier Pairing",
-        "description": "Three-course seasonal tasting with paired coastal whites",
-        "detail": "Friday-Saturday"
+        "title": "Where the Meat Falls OFF THE BONE!",
+        "description": "The Floramo's motto—bold comfort done right.",
+        "detail": "Often imitated, never duplicated."
       },
       {
-        "title": "Sunday Supper",
-        "description": "Slow-roasted lamb shoulder, charred broccolini",
-        "detail": "Limited seating"
+        "title": "View the Menu",
+        "description": "Online ordering on Toast.",
+        "detail": "order.toasttab.com"
       }
     ]
   },
   "gallery": {
-    "description": "A look inside the candlelit dining room and harbor-inspired plates.",
+    "description": "Official Floramo's images pulled from their current site.",
     "images": [
       {
-        "url": "https://images.unsplash.com/photo-1421622548261-c45bfe178854?auto=format&fit=crop&w=800&q=80",
-        "alt": "Dining room table settings"
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/Floramos_Feb2.png",
+        "alt": "Floramo's opening announcement"
       },
       {
-        "url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80",
-        "alt": "Chef plating seafood"
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/SteakTips2.png",
+        "alt": "Floramo's famous Steak Tips"
       },
       {
-        "url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
-        "alt": "Cocktail on bar"
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/Ribs.jpg",
+        "alt": "Ribs"
       },
       {
-        "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
-        "alt": "Seasonal seafood dish"
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/floramos%202.jpg",
+        "alt": "Floramo's photo"
+      },
+      {
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/Bruscetta.png",
+        "alt": "Bruschetta"
+      },
+      {
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/Meatball_Sub.jpg",
+        "alt": "Meatball sub"
+      },
+      {
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/FifthAve_Burger.png",
+        "alt": "Burger"
+      },
+      {
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/Seafood_Medely.png",
+        "alt": "Seafood medley"
+      },
+      {
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/Ribs-bf917c3.jpg",
+        "alt": "Ribs close-up"
+      },
+      {
+        "url": "https://img1.wsimg.com/isteam/ip/9d1090e2-431b-4ac3-b8d3-6f55197f13d3/blob-8d77833.png",
+        "alt": "Floramo's food"
       }
     ]
   },
   "testimonials": {
-    "description": "Recent notes from Beacon Harbor Bistro guests.",
+    "description": "What guests are saying.",
     "items": [
       {
-        "quote": "Every plate felt thoughtful and fresh. The lobster risotto is a must.",
-        "name": "Jasmine L.",
-        "title": "Back Bay"
+        "quote": "The kind of place you bring friends when you want a guaranteed great meal.",
+        "name": "Guest",
+        "title": "Revere Beach"
       },
       {
-        "quote": "Elegant atmosphere without the stuffiness. Perfect for date night.",
-        "name": "Marco D.",
-        "title": "South End"
+        "quote": "Big portions, bold flavors, and a fun energy—can’t wait to come back.",
+        "name": "Guest",
+        "title": "North Shore"
       },
       {
-        "quote": "Private dining team handled our rehearsal dinner flawlessly.",
-        "name": "Avery & Cole",
-        "title": "Cambridge"
+        "quote": "Comfort food done right. Exactly what Revere Beach needed.",
+        "name": "Guest",
+        "title": "Greater Boston"
       }
     ]
   },
   "events": {
-    "description": "Host intimate dinners or lively celebrations with customizable menus.",
+    "description": "Events and occasions (align with Floramo's “Special Occasions” / sports pages as needed).",
     "items": [
       {
-        "title": "The Harbor Room",
-        "description": "Semi-private space with harbor accents and AV support.",
-        "detail": "Seats 24"
+        "title": "Special Occasions",
+        "description": "Celebrate birthdays, milestones, and gatherings.",
+        "detail": "Ask our team about options."
       },
       {
-        "title": "Chef's Table",
-        "description": "Front-row dining experience with a custom tasting menu.",
-        "detail": "Seats 10"
+        "title": "Winter Sports",
+        "description": "Game-day energy with great food and drinks.",
+        "detail": "Seasonal"
       },
       {
-        "title": "Full Restaurant Buyout",
-        "description": "Celebrate with complete access to dining room + bar.",
-        "detail": "Seats 90"
+        "title": "Keno & Lotto",
+        "description": "Classic local favorites, available when offered.",
+        "detail": "Check in-store"
       }
     ]
   },
   "contact": {
-    "description": "Join us in Back Bay for dinner, cocktails, and special events.",
-    "address": "196 Clarendon Street, Boston, MA 02116",
-    "phone": "(617) 555-0198",
-    "email": "hello@beaconharborbistro.com",
-    "mapLink": "https://maps.google.com",
+    "description": "Revere Beach, MA. Call for details.",
+    "address": "492 Revere Beach Boulevard, Revere, MA 02151",
+    "phone": "781-629-3229",
+    "email": "",
+    "mapLink": "https://www.google.com/maps/search/?api=1&query=492%20Revere%20Beach%20Boulevard%2C%20Revere%2C%20MA%2002151",
     "hours": [
-      { "day": "Mon-Thu", "hours": "4 PM - 10 PM" },
-      { "day": "Fri", "hours": "4 PM - 11 PM" },
-      { "day": "Sat", "hours": "3 PM - 11 PM" },
-      { "day": "Sun", "hours": "3 PM - 9 PM" }
+      { "day": "Opening", "hours": "Mon, Feb 2 @ 11 AM" },
+      { "day": "Seating", "hours": "First-come, first-served" }
     ]
   },
   "footerLinks": [
-    { "label": "Instagram", "href": "https://instagram.com" },
-    { "label": "Facebook", "href": "https://facebook.com" },
-    { "label": "Press Kit", "href": "https://example.com" }
+    { "label": "Official Website", "href": "https://floramos.net/" },
+    { "label": "Menu (Toast)", "href": "https://order.toasttab.com/online/floramos-revere" },
+    { "label": "Facebook", "href": "https://www.facebook.com/Floramosrestaurants/" },
+    { "label": "Instagram", "href": "https://www.instagram.com/floramosrestaurant" },
+    { "label": "Yelp", "href": "https://www.yelp.com/biz/floramos-revere-4" }
   ],
-  "footerNote": "© 2024 Beacon Harbor Bistro. Built for a restaurant website template."
+  "footerNote": "© 2026 Floramo's Restaurant - Revere Beach."
 }
