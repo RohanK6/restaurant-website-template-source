@@ -26,10 +26,9 @@ python -m http.server 8000
 
 - Home hero with quick stats
 - About + highlights page
-- Menu highlights page
-- Chef's specials page
+- Menu highlights + chef's specials page
 - Gallery page
-- Testimonials page
+- Testimonials section (on About page)
 - Events + private dining page
 - Visit / contact page
 

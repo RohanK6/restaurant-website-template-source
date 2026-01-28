@@ -36,7 +36,18 @@
           <h2>Gallery</h2>
           <p id="gallery-description">Gallery description goes here.</p>
         </div>
-        <div class="gallery" id="gallery-grid"></div>
+        <div class="carousel" aria-live="polite">
+          <button class="carousel__control" id="gallery-prev" type="button" aria-label="Previous photo">
+            ‹
+          </button>
+          <div class="carousel__frame">
+            <img id="gallery-image" src="" alt="" />
+          </div>
+          <button class="carousel__control" id="gallery-next" type="button" aria-label="Next photo">
+            ›
+          </button>
+        </div>
+        <div class="carousel__caption" id="gallery-caption"></div>
       </section>
     </main>
 

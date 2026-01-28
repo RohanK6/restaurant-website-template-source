@@ -302,6 +302,46 @@ img {
   gap: 1rem;
 }
 
+.carousel {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.carousel__frame {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: var(--color-surface);
+}
+
+.carousel__frame img {
+  width: 100%;
+  height: clamp(260px, 45vw, 420px);
+  object-fit: cover;
+  display: block;
+}
+
+.carousel__control {
+  border: none;
+  background: var(--color-primary);
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.carousel__caption {
+  margin-top: 1rem;
+  color: var(--color-muted);
+  font-weight: 600;
+  text-align: center;
+}
+
 .gallery__item {
   border-radius: 16px;
   overflow: hidden;
@@ -406,5 +446,14 @@ img {
 
   .nav__actions {
     display: none;
+  }
+
+  .carousel {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel__control {
+    width: 100%;
+    border-radius: 999px;
   }
 }

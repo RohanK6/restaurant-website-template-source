@@ -75,7 +75,7 @@ function renderContent(data) {
   renderCards("specials-grid", data.specials.items, "special-card");
 
   setText("gallery-description", data.gallery.description);
-  renderGallery("gallery-grid", data.gallery.images);
+  renderGalleryCarousel(data.gallery.images);
 
   setText("testimonial-description", data.testimonials.description);
   renderTestimonials("testimonials-grid", data.testimonials.items);
@@ -215,6 +215,43 @@ function renderGallery(containerId, images) {
     item.innerHTML = `<img src="${image.url}" alt="${image.alt}" />`;
     container.appendChild(item);
   });
+}
+
+function renderGalleryCarousel(images) {
+  const imageElement = document.getElementById("gallery-image");
+  const captionElement = document.getElementById("gallery-caption");
+  const prevButton = document.getElementById("gallery-prev");
+  const nextButton = document.getElementById("gallery-next");
+  if (!imageElement || !captionElement || !prevButton || !nextButton) {
+    return;
+  }
+  if (!images || images.length === 0) {
+    imageElement.style.display = "none";
+    captionElement.textContent = "";
+    prevButton.style.display = "none";
+    nextButton.style.display = "none";
+    return;
+  }
+  let index = 0;
+
+  const updateSlide = () => {
+    const current = images[index];
+    imageElement.src = current.url;
+    imageElement.alt = current.alt || "Gallery photo";
+    captionElement.textContent = current.alt || "";
+  };
+
+  prevButton.addEventListener("click", () => {
+    index = (index - 1 + images.length) % images.length;
+    updateSlide();
+  });
+
+  nextButton.addEventListener("click", () => {
+    index = (index + 1) % images.length;
+    updateSlide();
+  });
+
+  updateSlide();
 }
 
 function renderTestimonials(containerId, items) {
