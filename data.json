@@ -22,12 +22,14 @@
     "shadow": "0 20px 50px rgba(0, 0, 0, 0.12)"
   },
   "navigation": [
-    { "label": "About", "href": "#about" },
-    { "label": "Menu", "href": "#menu" },
-    { "label": "Specials", "href": "#specials" },
-    { "label": "Gallery", "href": "#gallery" },
-    { "label": "Events", "href": "#events" },
-    { "label": "Visit", "href": "#contact" }
+    { "label": "Home", "href": "index.html" },
+    { "label": "About", "href": "about.html" },
+    { "label": "Menu", "href": "menu.html" },
+    { "label": "Specials", "href": "specials.html" },
+    { "label": "Gallery", "href": "gallery.html" },
+    { "label": "Testimonials", "href": "testimonials.html" },
+    { "label": "Events", "href": "events.html" },
+    { "label": "Visit", "href": "visit.html" }
   ],
   "actions": {
     "orderOnline": {
@@ -46,11 +48,11 @@
     "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
     "primaryCta": {
       "label": "Explore the Menu",
-      "link": "#menu"
+      "link": "menu.html"
     },
     "secondaryCta": {
       "label": "Plan an Event",
-      "link": "#events"
+      "link": "events.html"
     },
     "stats": [
       { "label": "Chef-driven plates", "value": "34" },

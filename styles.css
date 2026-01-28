@@ -184,6 +184,17 @@ img {
   gap: 1rem;
 }
 
+.section--split {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+  align-items: center;
+}
+
+.section--split .section__content {
+  max-width: 36rem;
+}
+
 .stat {
   background: var(--color-surface);
   padding: 1.2rem;

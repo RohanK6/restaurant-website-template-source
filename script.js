@@ -43,7 +43,8 @@ function applyTheme(theme) {
 }
 
 function renderContent(data) {
-  document.title = data.restaurant.name;
+  const pageTitle = document.title.split("|")[0].trim();
+  document.title = `${data.restaurant.name} | ${pageTitle}`;
   setText("site-name", data.restaurant.name);
   setText("site-tagline", data.restaurant.tagline);
   setText("footer-name", data.restaurant.name);
@@ -60,9 +61,15 @@ function renderContent(data) {
   setBackgroundImage("about-image", data.about.image);
   renderPills("about-pills", data.about.highlights);
 
-  setText("menu-description", data.menu.description);
-  setLink("menu-pdf", data.menu.pdf.link, data.menu.pdf.label);
-  renderMenu("menu-grid", data.menu.categories);
+  setText("menu-description", data.menu?.description);
+  if (data.menu?.pdf) {
+    setLink("menu-pdf", data.menu.pdf.link, data.menu.pdf.label);
+  } else {
+    hideElement("menu-pdf");
+  }
+  if (data.menu?.categories) {
+    renderMenu("menu-grid", data.menu.categories);
+  }
 
   setText("specials-description", data.specials.description);
   renderCards("specials-grid", data.specials.items, "special-card");
@@ -101,18 +108,32 @@ function setText(id, value) {
 
 function setLink(id, href, label) {
   const element = document.getElementById(id);
-  if (element) {
-    element.textContent = label;
-    element.setAttribute("href", href);
-    element.setAttribute("target", "_blank");
-    element.setAttribute("rel", "noopener");
+  if (!element) {
+    return;
   }
+  if (!href) {
+    element.style.display = "none";
+    return;
+  }
+  if (label) {
+    element.textContent = label;
+  }
+  element.setAttribute("href", href);
+  element.setAttribute("target", "_blank");
+  element.setAttribute("rel", "noopener");
 }
 
 function setBackgroundImage(id, url) {
   const element = document.getElementById(id);
   if (element) {
     element.style.backgroundImage = `url('${url}')`;
+  }
+}
+
+function hideElement(id) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.style.display = "none";
   }
 }
 

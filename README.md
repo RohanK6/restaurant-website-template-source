@@ -20,17 +20,18 @@ python -m http.server 8000
 - **Content**: Menu categories, specials, events, and testimonials are all configured in `data.json`.
 - **Hero + Gallery images**: Replace with your own photo URLs.
 - **Menu PDF**: Provide a downloadable menu file via `menu.pdf` in `data.json`.
+- **Navigation**: Update `navigation` in `data.json` to control page links.
 
 ## Template Sections
 
-- Hero with quick stats
-- About + highlights
-- Menu highlights
-- Chef's specials
-- Gallery
-- Testimonials
-- Events + private dining
-- Visit / contact
+- Home hero with quick stats
+- About + highlights page
+- Menu highlights page
+- Chef's specials page
+- Gallery page
+- Testimonials page
+- Events + private dining page
+- Visit / contact page
 
 ## Tips for Creating New Restaurant Sites
 
